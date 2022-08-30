@@ -13,4 +13,4 @@ class Property(Document):
 	# 				frappe.throw((f'Property of type <b>Flat</b> should not have amenity {amenity.amenity}'))
 #hello
 	def after_insert(self):
-		frappe.msgprint((f'Document {self.name} inserted successfullye'))
+		frappe.msgprint((f'Document {self.name} inserted successfully'))
