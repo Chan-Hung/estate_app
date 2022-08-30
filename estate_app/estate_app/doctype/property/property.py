@@ -11,6 +11,6 @@ class Property(Document):
 	# 		for amenity in self.amenities:
 	# 			if(amenity.amenity == "Outdoor Kitchen"):
 	# 				frappe.throw((f'Property of type <b>Flat</b> should not have amenity {amenity.amenity}'))
-
+#hello
 	def after_insert(self):
-		frappe.msgprint((f'Document {self.name} inserted successfully'))
+		frappe.msgprint((f'Document {self.name} inserted successfullye'))
